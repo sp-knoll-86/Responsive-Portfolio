@@ -1,0 +1,164 @@
+.body {
+    position: relative;
+    margin: auto;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/oriental.png");
+}
+
+.header {
+    width: 960px;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    background-color: #ffffff;
+    height: 68px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 68px;
+    background-color: #ffffff;
+    border-bottom: 2px #cccccc solid;  
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(208, 221, 235);
+    padding: 5px;
+}
+
+#name {
+    float: left;
+    width: 300px;
+    height: 68px;
+    margin: 0px;
+    line-height: 68px;
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+}
+
+.options {
+    float: right;
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#About {
+    padding-right: 10px;
+    border-right: 1px solid #cccccc;
+}
+
+#Portfolio {
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid #cccccc;
+}
+
+#Contact {
+    padding-left: 10px;
+}
+
+#Portrait {
+    float: left;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.container {
+    width: 960px;
+    clear: both;
+    margin: auto;
+    margin-top: 32px;
+    border: 1px #dddddd solid;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+hr {    
+    margin: 0px 20px 20px 20px;
+    border-top: 1px #dddddd solid;
+}
+
+#aboutme {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6px;
+    background-color: #666666;
+    color: #ffffff;
+    border-top: 5px #4aaaa5 solid;
+}
+
+.form {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.label {
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+input[type=text], select {
+    width: 910px;
+    margin-bottom: 10px;
+    padding: 5px 0px 5px 10px;
+    font-size: 10px;
+    border: 1px #dddddd solid;
+}
+
+input[type=text]:hover {
+    background-color: rgb(208, 221, 235);
+}
+
+textarea {
+    width: 910px;
+    margin-bottom: 10px;
+    padding: 5px 0px 5px 10px;
+    font-size: 10px;
+    line-height: 1.6;
+    border: 1px #dddddd solid;
+    resize: none;
+}
+
+textarea:hover {
+    background-color: rgb(208, 221, 235);
+}
+
+input[type=submit] {
+    padding: 5px 20px 5px 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background-color: #278b86;
+}
