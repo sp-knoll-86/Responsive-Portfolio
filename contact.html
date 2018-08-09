@@ -4,31 +4,63 @@
     <head>
     <meta charset="UTF-8">
         <title>Contact Me!</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
 
-    <body>
+    <body class="body">
 
-        <header>
-            <h1>Spencer Knoll</h1>
-            <h3><a href="#" target="_blank">About</a></h3>
-            <h3><a href="#" target="_blank">Portfolio</a></h3>
-            <h3><a href="#" target="_blank">Contact</a></h3>
-        </header>
+        <div class="nav">
+            <header class="header">
+                <h1 id="name">Spencer Knoll</h1>
 
-        <form action="/action_page.php">
-            <label>Name</label>
-            <br>
-            <input type="text" name="Name" value="John Smith">
-            <br>
-            <label>Email</label>
-            <br>
-            <input type="text" name="Email" value="example@gmail.com">
-            <br>
-            <label>Message</label>
-            <br>
-            <textarea name="Message" rows="10" cols="20"></textarea>
-            <br>
-            <input type="Submit" value="Submit">
-        </form>
+            <div class="tabs">
+                <div class="options">
+                    <header id="Contact"><a href="file:///D:/spkno/Bootcamp/Basic_Portfolio/contact.html">Contact</a></header>
+                </div>                 
+                <div class="options">
+                    <header id="Portfolio"><a href="file:///D:/spkno/Bootcamp/Basic_Portfolio/portfolio.html">Portfolio</a></header>
+                </div>
+                <div class="options">
+                    <header id="About"><a href="file:///D:/spkno/Bootcamp/Basic_Portfolio/index.html">About</a></header>
+                </div>               
+            </header>
+        </div>
+
+        <div class="container">
+            <h2 id="aboutme">Contact</h2>
+
+            <hr>
+
+            <div class="form">
+                <form action="/action_page.php">
+                    <div class="label">
+                        <label>Name</label>
+                    </div>              
+                    <div>
+                        <input type="text" name="Name" placeholder="John Smith">
+                    </div>
+                    <div class="label">
+                        <label>Email</label>
+                    </div>
+                    <div>
+                        <input type="text" name="Email" placeholder="example@gmail.com">
+                    </div>
+                    <div class="label">
+                        <label>Message</label>
+                    </div>
+                    <div>
+                        <textarea name="Message" rows="10" cols="20"></textarea>
+                    </div>
+                    <div>
+                        <input type="Submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <footer class="footer">
+            Copyright
+        </footer>
+
     </body>
 </html>
