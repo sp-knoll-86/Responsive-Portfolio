@@ -1,5 +1,4 @@
 .body {
-    position: relative;
     margin: auto;
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/oriental.png");
 }
@@ -15,23 +14,12 @@
 }
 
 .nav {
-    position: relative;
     top: 0;
     left: 0;
     width: 100%;
     height: 88px;
     background-color: #ffffff;
     border-bottom: 2px #cccccc solid;  
-}
-
-a {
-    color: #777777;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: rgb(208, 221, 235);
-    padding: 5px;
 }
 
 #name {
@@ -45,26 +33,36 @@ a:hover {
     background-color: #4aaaa5;
 }
 
+a {
+    color: #777777;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: rgb(208, 221, 235);
+    padding: 5px;
+}
+
 .options {
     float: right;
-    position: relative;
     font-size: 11px;
     text-align: center;
     margin-top: 60px;
 }
 
 #About {
-    padding-right: 10px;
+    padding-right: 5px;
     border-right: 1px solid #cccccc;
 }
 
 #Portfolio {
-    padding: 0px 10px 0px 10px;
+    padding: 0px 5px 0px 5px;
     border-right: 1px solid #cccccc;
 }
 
 #Contact {
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 #Portrait {
@@ -116,6 +114,27 @@ p {
     border-top: 5px #4aaaa5 solid;
 }
 
+.header1 {
+    width: 700px;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    background-color: #ffffff;
+    height: 88px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.container1 {
+    width: 700px;
+    clear: both;
+    margin: auto;
+    margin-top: 32px;
+    border: 1px #dddddd solid;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
 .form {
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -127,7 +146,7 @@ p {
 }
 
 input[type=text], select {
-    width: 910px;
+    width: 650px;
     margin-bottom: 10px;
     padding: 5px 0px 5px 10px;
     font-size: 10px;
@@ -139,7 +158,7 @@ input[type=text]:hover {
 }
 
 textarea {
-    width: 910px;
+    width: 650px;
     margin-bottom: 10px;
     padding: 5px 0px 5px 10px;
     font-size: 10px;
@@ -161,4 +180,51 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #278b86;
+}
+
+.container2 {
+    clear: both;
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    border: 1px #dddddd solid;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+.container3 {
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    padding: 10px 5px 20px 0px;
+}
+
+.ID {
+    position: absolute;
+    z-index: 1;
+    bottom: 17%;
+}
+
+#RPG {
+    margin-right: 200px;
+}
+
+#Rutgers {
+    margin-right: 200px;
+}
+
+.style {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 190px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
 }
