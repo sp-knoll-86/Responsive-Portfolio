@@ -112,6 +112,7 @@ p {
     background-color: #666666;
     color: #ffffff;
     border-top: 5px #4aaaa5 solid;
+    z-index: 2;
 }
 
 .header1 {
