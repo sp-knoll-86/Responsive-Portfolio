@@ -33,13 +33,13 @@
     background-color: #4aaaa5;
 }
 
-a {
+.a1 {
     color: #777777;
     text-decoration: none;
     padding: 5px;
 }
 
-a:hover {
+.a1:hover {
     background-color: rgb(208, 221, 235);
     padding: 5px;
 }
@@ -228,4 +228,8 @@ input[type=submit]:hover {
     height: 40px;
     line-height: 40px;
     border: none;
+}
+
+.a2 {
+    text-decoration: none;
 }
