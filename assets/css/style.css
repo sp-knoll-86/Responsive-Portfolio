@@ -71,6 +71,11 @@
     padding-top: 0px;
 }
 
+.responsive {
+    height: 150px;
+    width: 150px;
+}
+
 .container {
     width: 960px;
     clear: both;
@@ -203,10 +208,9 @@ input[type=submit]:hover {
     padding: 10px 5px 20px 0px;
 }
 
-.ID {
-    position: absolute;
-    z-index: 1;
-    bottom: 17%;
+.responsive1 {
+    height: 150px;
+    width: 190px;
 }
 
 #RPG {
@@ -218,6 +222,9 @@ input[type=submit]:hover {
 }
 
 .style {
+    position: absolute;
+    z-index: 1;
+    bottom: 17%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     letter-spacing: 1.2px;
@@ -232,4 +239,332 @@ input[type=submit]:hover {
 
 .a2 {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 980px) {
+    .body {
+        position: relative;
+        width: 100%;
+    }
+    
+    .header {
+        width: 90%;
+    }
+
+    .header1 {
+        width: 90%;
+    }
+
+    #name {
+        float: left;
+        width: 300px;
+        height: 68px;
+        margin-top: 20px;
+        line-height: 68px;
+        text-align: center;
+        color: white;
+        background-color: #4aaaa5;
+    }
+
+    .tabs {
+        width: 100%;
+        margin: auto;
+    }
+
+    .container {
+        width: 65%;
+        margin: 0px 0px 0px 5%;
+        margin-top: 32px;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: -200px;
+    }
+
+    .container1 {
+        width: 65%;
+        margin: 0px 0px 0px 5%;
+    }
+
+    input[type=text], select {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px 0px 5px 10px;
+        margin-right: 20px;
+        font-size: 10px;
+        border: 1px #dddddd solid;
+    }
+
+    textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px 0px 5px 10px;
+        font-size: 10px;
+        line-height: 1.6;
+        border: 1px #dddddd solid;
+        resize: none;
+    }
+
+    .container2 {
+        width: 65%;
+        margin: 0px 0px 0px 5%;
+    }
+
+    .container3 {
+        float: left;
+        width: 40%;
+        margin-left: 20px;
+        padding: 10px 5px 20px 0px;
+    }
+
+    .responsive1 {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #RPG {
+        margin-right: auto;
+    }
+
+    #Rutgers {
+        margin-right: auto;
+    }
+
+    .style {
+        width: 78.3%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .body {
+        position: relative;
+        width: 100%;
+    }
+    
+    .header {
+        width: 90%;
+    }
+
+    .header1 {
+        width: 90%;
+    }
+
+    #name {
+        float: left;
+        width: 300px;
+        height: 68px;
+        margin-top: 20px;
+        line-height: 68px;
+        text-align: center;
+        color: white;
+        background-color: #4aaaa5;
+    }
+
+    .tabs {
+        width: 100%;
+        margin: auto;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+        margin-top: 32px;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: -200px;
+    }
+
+    .container1 {
+        width: 90%;
+        margin: auto;
+    }
+
+    input[type=text], select {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px 0px 5px 10px;
+        margin-right: 20px;
+        font-size: 10px;
+        border: 1px #dddddd solid;
+    }
+
+    textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px 0px 5px 10px;
+        font-size: 10px;
+        line-height: 1.6;
+        border: 1px #dddddd solid;
+        resize: none;
+    }
+
+    .container2 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .container3 {
+        float: left;
+        width: 40%;
+        margin-left: 20px;
+        padding: 10px 5px 20px 0px;
+    }
+
+    .responsive1 {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #RPG {
+        margin-right: auto;
+    }
+
+    #Rutgers {
+        margin-right: auto;
+    }
+
+    .style {
+        width: 78.3%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .body {
+        position: relative;
+        width: 100%;
+    }
+
+    h1 {
+        margin-bottom: 0px;
+    }
+    
+    .header {
+        width: 100%;
+    }
+
+    .header1 {
+        width: 100%;
+    }
+
+    #name {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .tabs {
+        width: 100%;
+        margin: auto;
+    }
+
+    .options {
+        width: 33.3%;
+        height: 30px;
+        background-color: #ffffff;
+        font-size: 14px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    #Portrait {
+        float: none;
+    }
+
+   .responsive {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ab1 {
+        clear: both;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: -200px;
+    }
+
+    .container1 {
+        width: 90%;
+        margin: auto;
+    }
+
+    input[type=text], select {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px 0px 5px 10px;
+        margin-right: 20px;
+        font-size: 10px;
+        border: 1px #dddddd solid;
+    }
+
+    textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px 0px 5px 10px;
+        font-size: 10px;
+        line-height: 1.6;
+        border: 1px #dddddd solid;
+        resize: none;
+    }
+
+    .container2 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .container3 {
+        width: 90%;
+    }
+
+    .responsive1 {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #RPG {
+        margin-right: auto;
+    }
+
+    #Rutgers {
+        margin-right: auto;
+    }
+
+    .style {
+        width: 99%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
